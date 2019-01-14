@@ -5,8 +5,8 @@ app = Flask(__name__, template_folder='render html')
 
 # config
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'your user name'
-app.config['MYSQL_PASSWORD'] = 'your password'
+app.config['MYSQL_USER'] = 'username'
+app.config['MYSQL_PASSWORD'] = 'password'
 app.config['MYSQL_DB'] = 'name of database'
 
 
